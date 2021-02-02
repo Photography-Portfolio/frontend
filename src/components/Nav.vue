@@ -1,5 +1,5 @@
 <template>
-    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-transparent mb-3">
+    <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-transparent z-40">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start md:w-auto md:static md:block md:justify-start">
           <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-black" href="/">
