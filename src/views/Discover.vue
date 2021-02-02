@@ -1,16 +1,33 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <div class="flex flex-wrap -mx-6 overflow-hidden sm:-mx-5 md:-mx-6 lg:-mx-6 xl:-mx-8 justify-center w-100">
 
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
-  </p>
+    <div v-for="index in 10" :key="index" class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <div class="w-12/12 px-4">
+        <img src="../assets/pictures/img_31.jpeg" />
+      </div>
+    </div>
 
-  <button @click="state.count++">count is: {{ state.count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+    <div class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <!-- Column Content -->
+    </div>
+
+    <div class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <!-- Column Content -->
+    </div>
+
+    <div class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <!-- Column Content -->
+    </div>
+
+    <div class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <!-- Column Content -->
+    </div>
+
+    <div class="my-6 px-6 w-full overflow-hidden sm:my-5 sm:px-5 md:my-6 md:px-6 md:w-1/2 lg:my-6 lg:px-6 lg:w-1/3 xl:my-8 xl:px-8 xl:w-1/3">
+      <!-- Column Content -->
+    </div>
+
+  </div>
 </template>
 
 <script setup>
