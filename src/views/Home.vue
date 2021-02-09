@@ -28,9 +28,3 @@ export default {
 	},
 };
 </script>
-
-<style scoped>
-.img {
-	height: 88vh;
-}
-</style>
