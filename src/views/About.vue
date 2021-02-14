@@ -1,9 +1,9 @@
 <template>
 	<div
-		class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-transparent z-40"
+		class="relative items-center justify-between px-2 py-3 bg-transparent z-40"
 	>
-		<div class="container px-4 mx-auto flex flex-wrap xl:px-40">
-			<div class="img w-full relative flex px-4">
+		<div class="container px-4 mx-auto xl:px-40">
+			<div class="img img-max w-full relative px-4">
 				<div
 					class="grid grid-cols-1 lg:grid-cols-2 gap-10 2xl:gap-24 justify-center content-center"
 				>
