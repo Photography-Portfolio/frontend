@@ -1,6 +1,6 @@
 <template>
-	<div class="img flex flex-wrap content-center justify-center relative">
-		<div class="w-12/12 xl:w-9/12 2xl:w-8/12 px-4">
+	<div class="img flex flex-wrap content-center justify-center relative px-4">
+		<div class="img-max w-12/12 xl:w-9/12 2xl:w-8/12">
 			<template v-if="windowWidth > 640">
 				<img src="../assets/pictures/img_31.jpeg" />
 			</template>

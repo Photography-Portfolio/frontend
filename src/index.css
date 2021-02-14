@@ -6,3 +6,7 @@
 .img {
 	height: 87.5vh;
 }
+
+.img-max {
+	max-height: 87.5vh;
+}
