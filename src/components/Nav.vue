@@ -52,12 +52,5 @@ export default {
       }
     }
   },
-//   watch:{
-//     $route (to, from){
-//       if (width <= 768) {
-//         this.showNav = false;
-//       }
-//     }
-// } 
 };
 </script>
