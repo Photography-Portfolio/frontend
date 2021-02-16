@@ -26,15 +26,8 @@ export default {
 				"src/assets/pictures/img_32.jpeg",
 				"src/assets/pictures/img_31.jpeg",
 				"src/assets/pictures/img_08.jpeg",
-				"src/assets/pictures/img_31.jpeg",
-				"src/assets/pictures/img_08.jpeg",
-				"src/assets/pictures/img_32.jpeg",
-				"src/assets/pictures/img_32.jpeg",
-				"src/assets/pictures/img_31.jpeg",
-				"src/assets/pictures/img_08.jpeg",
-				"src/assets/pictures/img_31.jpeg",
-				"src/assets/pictures/img_08.jpeg",
-				"src/assets/pictures/img_32.jpeg",
+				"src/assets/pictures/img_33.jpeg",
+				"src/assets/pictures/img_21.jpeg",
 			]
 		};
 	},
