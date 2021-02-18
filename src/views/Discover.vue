@@ -73,7 +73,7 @@ export default {
 			let index = this.imageIndex + moveIndex;
 
 			if (index > numberOfImages) {
-				console.log(index);
+				this.imageIndex = 0;
 			} else if (index < 0) {
 				this.imageIndex = numberOfImages;
 			} else {
