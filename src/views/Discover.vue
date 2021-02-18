@@ -67,12 +67,15 @@ export default {
 	},
 	methods: {
 		modalMethod: function (index) {
+			// opens modal of image
 			if (window.innerWidth > 767) {
 				this.modal = !this.modal;
 				this.imageIndex = index;
 			}
 		},
 		imageIndexMethod: function (moveIndex) {
+			// when modal is open this func lets the 
+			// user go to prev or next image in list
 			let numberOfImages = this.images.length - 1;
 
 			let index = this.imageIndex + moveIndex;
