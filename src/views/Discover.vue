@@ -29,7 +29,7 @@
 					Prev
 				</button>
 				<img
-					class="img-max"
+					class="img-max cursor-pointer"
 					v-on:click="modal = !modal"
 					:src="images[imageIndex]"
 				/>
