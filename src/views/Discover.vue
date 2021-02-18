@@ -21,8 +21,24 @@
 	</div>
 	<div v-else>
 		<div class="img flex flex-wrap content-center justify-center relative px-4">
-			<div >
-				<img class="img-max" v-on:click="modal = !modal" :src="images[imageIndex]" />
+			<div class="flex flex-row gap-2">
+				<button
+					class="text-xs uppercase font-bold leading-snug text-black hover:opacity-75 focus:outline-none"
+					v-on:click="imageIndexMethod(-1)"
+				>
+					Prev
+				</button>
+				<img
+					class="img-max"
+					v-on:click="modal = !modal"
+					:src="images[imageIndex]"
+				/>
+				<button
+					class="text-xs uppercase font-bold leading-snug text-black hover:opacity-75 focus:outline-none"
+					v-on:click="imageIndexMethod(1)"
+				>
+					Next
+				</button>
 			</div>
 		</div>
 	</div>
@@ -46,9 +62,25 @@ export default {
 	},
 	methods: {
 		modalMethod: function (index) {
-			this.modal = !this.modal;
-			this.imageIndex = index;
+			if (window.innerWidth > 767) {
+				this.modal = !this.modal;
+				this.imageIndex = index;
+			}
 		},
+		imageIndexMethod: function (moveIndex) {
+			let numberOfImages = this.images.length - 1;
+
+			let index = this.imageIndex + moveIndex;
+
+			if (index > numberOfImages) {
+				console.log(index);
+			} else if (index < 0) {
+				this.imageIndex = numberOfImages;
+			} else {
+				this.imageIndex = index;
+			}
+
+		}
 	},
 };
 </script>
