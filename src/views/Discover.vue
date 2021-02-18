@@ -29,12 +29,12 @@
 					Prev
 				</button>
 				<img
-					class="img-max cursor-pointer"
+					class="img-max cursor-pointer max-w-2xl xl:max-w-none"
 					v-on:click="modal = !modal"
 					:src="images[imageIndex]"
 				/>
 				<button
-					class="text-xs uppercase font-bold leading-snug text-black hover:opacity-75 focus:outline-none"
+					class="mr-2 text-xs uppercase font-bold leading-snug text-black hover:opacity-75 focus:outline-none"
 					v-on:click="imageIndexMethod(1)"
 				>
 					Next
@@ -56,6 +56,11 @@ export default {
 				"src/assets/pictures/img_08.jpeg",
 				"src/assets/pictures/img_33.jpeg",
 				"src/assets/pictures/img_21.jpeg",
+				"src/assets/pictures/img_32.jpeg",
+				"src/assets/pictures/img_31.jpeg",
+				"src/assets/pictures/img_08.jpeg",
+				"src/assets/pictures/img_33.jpeg",
+				"src/assets/pictures/img_21.jpeg"
 			],
 			imageIndex: null,
 		};
