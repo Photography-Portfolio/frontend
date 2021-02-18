@@ -17,7 +17,7 @@
 				</template>
 			</div>
 			<div class="my-auto pb-9">
-				<form action="">
+				<form method="POST" data-netlify="true">
 					<div class="my-5 text-sm">
 						<label
 							class="font-bold leading-relaxed inline-block mr-4 py-2 uppercase text-black"
@@ -58,6 +58,7 @@
 						/>
 					</div>
 					<button
+						type="submit"
 						class="px-4 font-bold text-sm leading-relaxed inline-block mr-4 py-2 uppercase text-black border border-black focus:outline-none hover:text-white hover:bg-black transition duration-300"
 					>
 						Send
