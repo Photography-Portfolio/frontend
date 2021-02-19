@@ -17,10 +17,6 @@
 				</template>
 			</div>
 			<div class="my-auto pb-9">
-<<<<<<< HEAD
-				<form name="contact" method="POST" data-netlify="true">
-					<input type="hidden" name="form-name" value="Contact_Form" />
-=======
 				<form
 					method="post"
 					name="Contact_Form"
@@ -29,7 +25,6 @@
 					data-netlify-recaptcha="true"
 					action="/"
 				>
->>>>>>> parent of 7fcdd35... fix: netlify form
 					<div class="my-5 text-sm">
 						<label
 							class="font-bold leading-relaxed inline-block mr-4 py-2 uppercase text-black"
@@ -70,7 +65,6 @@
 					</div>
 					<button
 						type="submit"
-						onClick={handleSubmit}
 						class="px-4 font-bold text-sm leading-relaxed inline-block mr-4 py-2 uppercase text-black border border-black focus:outline-none hover:text-white hover:bg-black transition duration-300"
 					>
 						Send
@@ -82,24 +76,6 @@
 </template>
 
 <script>
-  const handleSubmit = event => {
-    event.preventDefault();
-
-   // do your verifications and checks
-   if(!verified) return false    
-
-    const REQUEST_PARAMETERS = {
-      method: `POST`,
-      headers: { 'Content-Type': `application/x-www-form-urlencoded` },
-      body: encode({ ...data }), //your data here. Needs to have your form-name attribute set
-    };
-
-    fetch(`/`, REQUEST_PARAMETERS)
-      .then(() => {
-        console.log(`OK`);
-      })
-      .catch(error => alert(error));
-  };
 
 export default {
 	name: "Home",
